@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@ngam](https://github.com/ngam/)
+* [@traversaro](https://github.com/traversaro/)
 
