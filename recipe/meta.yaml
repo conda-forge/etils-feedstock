@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.10
+    - python >=3.11
     - flit-core >=3.8,<4
   run:
-    - python >=3.10
+    - python >=3.11
 
 
 test:
