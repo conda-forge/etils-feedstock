@@ -1,5 +1,5 @@
 {% set name = "etils" %}
-{% set version = "1.10.0" %}
+{% set version = "1.11.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/google/etils/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 47fab05eb152caaa13773c90e0b7a089f8eab8ead11ba5fc5a96717d9b246165
+  sha256: ae8ca71d9de259dcbf0d4a524851af4916d3aa2b779be2088dd73585d168b507
 
 build:
   noarch: python
