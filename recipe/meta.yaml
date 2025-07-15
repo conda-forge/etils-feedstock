@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "etils" %}
-{% set version = "1.12.2" %}
+{% set version = "1.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/google/etils/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 16245bce35a04b87cf24a345db76c60164107a338b95a4c153edc89adf4ab766
+  sha256: 9daae4499336e6586e7025227ccdf37966f9778d37e9982895e6309d2dc13407
 
 build:
   noarch: python
