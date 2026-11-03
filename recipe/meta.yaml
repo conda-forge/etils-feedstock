@@ -1,4 +1,3 @@
-{% set python_min = "3.10" %}
 {% set name = "etils" %}
 {% set version = "1.15.0" %}
 
